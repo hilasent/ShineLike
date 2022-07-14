@@ -1,1 +1,75 @@
+/* GENERAL SETTINGS */
 
+@font-face {
+    font-family:'Raleway' ;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+body{
+    background-color: #ffffff;
+    color: #3f3f3f;
+    font-size: 14px;
+    line-height: 28px;
+    font-family:'Raleway',Arial, Helvetica, sans-serif;
+}
+
+
+
+/* GRID SETTINGS */
+
+.container{
+  width: 90%;
+  margin: 0 auto; /* ortalansın diye */
+  display: flex; 
+}
+
+
+
+/* HOME SETTINGS */
+
+header .logo{
+    margin-right: auto;
+}
+
+header .logo img {
+    display: block;
+    height: 70px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a{
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;;
+}
+
+.menu li:hover a{
+    background-color:#FCC9CE ;
+    color: #fff;
+}
+
+#main-slider {
+    height: 500px;
+    background: url('../img/mainSlider7.jpg')center center no-repeat;
+    background-size: cover;
+}
+
+.slider {
+  width: 100%;
+}
+
+#main-caption {
+    height: 500px;
+    background: rgb(0 0 0 / 25%);
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+}
